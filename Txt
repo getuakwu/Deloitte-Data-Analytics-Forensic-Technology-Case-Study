@@ -1,0 +1,79 @@
+Project Overview:
+
+Daikibo collected machine telemetry data from four factories for one month. Each factory had nine types of machines reporting health every ten minutes.
+
+Factories:
+
+Daikibo Factory Meiyo (Tokyo, Japan)
+
+Daikibo Factory Seiko (Osaka, Japan)
+
+Daikibo Berlin (Berlin, Germany)
+
+Daikibo Shenzhen (Shenzhen, China)
+
+The questions we wanted to answer:
+
+Which factory had the most machine downtime?
+
+Which machines broke the most in that factory?
+
+
+Tools Used:
+
+Tableau Desktop (Public Edition)
+
+JSON data file
+
+Excel for equality classification
+
+Dashboard creation and filtering
+
+Task 1: Machine Telemetry Analysis
+
+Imported the JSON data into Tableau
+
+Created a calculated field called Unhealthy, assigning 10 minutes for each unhealthy status
+
+
+Built two bar charts:
+
+Down Time per Factory
+
+Down Time per Device Type
+
+Made a dashboard where selecting a factory shows downtime by device type
+
+Found that Daikibo Factory Seiko had the highest downtime
+
+Laser welding machines caused the most downtime in that factory
+
+Task 2: Employee Equality Analysis
+
+Worked with employee compensation data in Excel
+
+Added a new column called Equality Class
+
+
+Classified scores as:
+
+Fair (-10 to +10)
+
+Unfair (<-10 or >10)
+
+Highly Discriminative (<-20 or >20)
+
+This helped identify areas where compensation might be unfair or highly discriminatory.
+
+
+What I Learned
+
+How to work with raw JSON data in Tableau
+
+How to create calculated fields and measure downtime
+
+How to build interactive dashboards
+
+How to classify and analyze data to show trends or risks
+
+How data can be used to answer practical business questions
