@@ -1,0 +1,2 @@
+# Deloitte-Data-Analytics-Forensic-Technology-Case-Study
+Worked on a simulated real-world data analytics and forensic investigation inspired by Deloitte’s work with industrial and enterprise clients. Using raw machine telemetry and compensation data, I applied analytical thinking, data visualization, and classification techniques to answer business-critical questions and identify potential risk areas.
