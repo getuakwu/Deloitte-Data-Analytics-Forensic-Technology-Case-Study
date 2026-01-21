@@ -12,6 +12,7 @@ Daikibo Berlin (Berlin, Germany)
 
 Daikibo Shenzhen (Shenzhen, China)
 
+
 The questions we wanted to answer:
 
 Which factory had the most machine downtime?
@@ -23,18 +24,18 @@ Tools Used:
 
 Tableau Desktop (Public Edition)
 
-JSON data file
+Daikibo telemetry data file, provided by Deloitte
 
 Excel for equality classification
 
 Dashboard creation and filtering
+
 
 Task 1: Machine Telemetry Analysis
 
 Imported the JSON data into Tableau
 
 Created a calculated field called Unhealthy, assigning 10 minutes for each unhealthy status
-
 
 Built two bar charts:
 
@@ -48,12 +49,12 @@ Found that Daikibo Factory Seiko had the highest downtime
 
 Laser welding machines caused the most downtime in that factory
 
+
 Task 2: Employee Equality Analysis
 
 Worked with employee compensation data in Excel
 
 Added a new column called Equality Class
-
 
 Classified scores as:
 
@@ -66,7 +67,7 @@ Highly Discriminative (<-20 or >20)
 This helped identify areas where compensation might be unfair or highly discriminatory.
 
 
-What I Learned
+What I Learned:
 
 How to work with raw JSON data in Tableau
 
